@@ -1,0 +1,10 @@
+applications:
+  - name: task-runner
+    memory: 1024M
+    disk_quota: 1024M
+    instances: 1
+    buildpacks:
+      - nodejs_buildpack
+    env:
+      OPTIMIZE_MEMORY: true
+    command: (yarn start && echo SUCCESS || echo FAIL) && sleep infinity

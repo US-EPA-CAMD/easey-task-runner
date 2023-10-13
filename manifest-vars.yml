@@ -1,0 +1,12 @@
+#THIS FILE SHOULD CONTAIN DEV SETTINGS AND CI/CD WORKFLOW WILL CHANGE SETTINGS BASED ON ENV
+disk: 1024
+memory: 1024
+instances: 1
+name: task-runner
+host: api-easey-dev.app.cloud.gov
+port: 8080
+path: task-runner
+title: Task Runner
+description: Runs periodic tasks using the Cloud Foundry cli run-task command
+environment: development
+apiHost: api.epa.gov/easey/dev
