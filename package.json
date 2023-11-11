@@ -8,7 +8,7 @@
     "up": "yarn && yarn start"
   },
   "dependencies": {
-    "axios": "^1.4.0",
+    "axios": "^1.6.0",
     "dotenv": "^16.0.3",
     "inquirer": "^9.2.11",
     "pg": "^8.10.0"
