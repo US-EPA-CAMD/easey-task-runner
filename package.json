@@ -17,7 +17,7 @@
     "@types/inquirer": "^9.0.9",
     "@types/node": "^22.19.15",
     "@types/pg": "^8.20.0",
-    "ts-loader": "^6.2.1",
+    "ts-loader": "^8.0.10",
     "ts-node": "^8.6.2",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^5.9.3"
